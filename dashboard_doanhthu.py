@@ -6,7 +6,7 @@ st.set_page_config(page_title="Dashboard Doanh thu BHX", layout="wide")
 st.title("📊 Dashboard Doanh thu BHX")
 
 # === Bước 1: Load dữ liệu ===
-file_path = "https://onedrive.live.com/personal/835e77fc21d5adcb/_layouts/15/Doc.aspx?resid=835E77FC21D5ADCB!s92c94b453ff74bbaac3022ccc2d22ba0&cid=835e77fc21d5adcb&migratedtospo=true&app=Excel"
+file_path = "https://1drv.ms/x/c/27dfb2623d48639a/EbHxu6VP3CJJi6hT41L1rv4BYPbTX90gq7xixwoJovrrnA?e=RHNrlp"
 df = pd.read_excel(file_path)
 
 # Chuẩn hóa cột Ngày về datetime
