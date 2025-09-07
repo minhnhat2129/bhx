@@ -6,7 +6,8 @@ st.set_page_config(page_title="Dashboard Doanh thu BHX", layout="wide")
 st.title("📊 Dashboard Doanh thu BHX")
 
 # === Bước 1: Load dữ liệu ===
-file_path = "/Ngày_Dthu_T8-update-31.8 (tổng).xlsx"
+# file_path = "/Ngày_Dthu_T8-update-31.8 (tổng).xlsx"
+file_path = st.file_uploader("📂 Upload file Excel", type=["xlsx"])
 df = pd.read_excel(file_path)
 
 # Chuẩn hóa cột Ngày về datetime
