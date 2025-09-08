@@ -6,7 +6,7 @@ st.set_page_config(page_title="Dashboard Doanh thu BHX", layout="wide")
 st.title("📊 Dashboard Doanh thu BHX")
 
 # === Bước 1: Load dữ liệu ===
-df = pd.read_excel("dthut8.xlsx")
+df = pd.read_excel("dthuT8.xlsx")
 df['Ngày'] = pd.to_datetime(df['Ngày'])
 
 # Nếu file không có sẵn cột "Thứ" thì tự tạo
